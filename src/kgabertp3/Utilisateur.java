@@ -70,6 +70,14 @@ public class Utilisateur {
     public Date getDateinsciption() {
         return dateinsciption;
     }
-    
+    /*
+    @Override
+    public int compareTo(Utilisateur autre){
+        return new CompareToBuilder()
+                .append(getCentreInteret(), autre.getCentreInteret())
+                .append(getPseudo(), autre.getPseudo())
+                .toComparison();
+    }
+    */
     
 }
